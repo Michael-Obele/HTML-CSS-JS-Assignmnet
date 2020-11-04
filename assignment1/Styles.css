@@ -15,6 +15,9 @@
     text-align: center;
     font-size: 75% larger;
 }
+.container{
+    margin-top: 20px;
+}
 section{
     border: 1px solid black;
     background: gray;
@@ -26,22 +29,25 @@ section{
     margin-left: auto;
 }
 p{
-width: 90%;
+width: 100%;
 height: 100%;
 padding-top: 28px;
-margin-right: auto;
-margin-left: auto;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 16px;
 }
 #frt{
     position: absolute;
+    text-align:center;
     right: 0;
     border: 1px solid black;
     width: 30%;
     font-size: 25% larger;
-    background-color: goldenrod;
+    background-color: rgb(185, 146, 45);
 }
 #sec{
     position: absolute;
+    text-align: center;
     right: 0;
     border: 1px solid black;
     width: 20%;
@@ -50,6 +56,7 @@ margin-left: auto;
 }
 #thd{
     position: absolute;
+    text-align:center;
     right: 0;
     border: 1px solid black;
     width: 20%;
@@ -62,45 +69,45 @@ margin-left: auto;
     margin-left: auto;
     margin-right: auto;
     }
-.lg{
+    .lg{
     width: 31%;
     height: 100%;
     float: left;
-}
-section:nth-child(1){
+    }
+    section:nth-child(1){
     margin-right: 3.45%;
-}
+    }
 
-section:nth-child(2){
-width: 31%;
-}
+    section:nth-child(2){
+    width: 31%;
+    }
 
-section:nth-child(3){
+    section:nth-child(3){
     float: right;
     margin-left: 3.45%;
-}
+    }
 }
 /* Tablet */
 @media(min-width:768px) and (max-width:991px){
-.container{
+    .container{
     width: 90%;
     margin-right: auto;
     margin-left: auto;
-}
-.md{
+    }
+    .md{
     float: left;
     width:48%;
-}
-
-section:nth-child(1){
-margin-right: 15px;
-}
-section:nth-child(2){
+    }
+    
+    section:nth-child(1){
+    margin-right: 15px;
+    }
+    section:nth-child(2){
     float: right;
 }
-section:nth-child(3){
+    section:nth-child(3){
     width: 100%;
-}
+    }
 }
 /* Mobile */
 @media(max-width:767px){
