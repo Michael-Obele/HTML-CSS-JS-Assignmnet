@@ -68,16 +68,17 @@ background-color: rgb(107, 69, 104);
 .navbar-header button.navbar-toggle{
     margin-top: 0px;
 }
+/* Page Heading */
 .First{
     background-color:rgb(139, 53, 139);
     color: whitesmoke;
     font-weight: bolder;
     margin-top: -20px;
-    text-align: center;
 }
 section{
     border: 1px solid black;
-    background: gray;
+    color: black;
+    background: rgb(185, 130, 185);
     height:1000px;
     margin-bottom: 12px;
     position: relative;
