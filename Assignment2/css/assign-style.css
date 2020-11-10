@@ -30,7 +30,7 @@ background-color: rgb(107, 69, 104);
     margin-top: 0;
     margin-bottom: 12px;
     text-transform: uppercase;
-    left:60px;
+    left:7%;
 }
 
 .navbar-header a:hover, .navbar-header a:focus{
@@ -78,19 +78,34 @@ background-color: rgb(107, 69, 104);
 section{
     border: 1px solid black;
     background: gray;
-    height:90%;
+    height:230%;
     margin-bottom: 12px;
     position: relative;
     width: 90%;
     margin-right: auto;
     margin-left: auto;
 }
+section h2{
+    text-align: center;
+}
 /* Large devices only */
-@media(min-width:1200px){}
+@media(min-width:1200px){
+    #nav-list{
+        display: none;
+    }
+}
 /* Medium devices only */
-@media(min-width:992px) and (max-width:1192px){}
+@media(min-width:992px) and (max-width:1192px){
+    #nav-list{
+        display: none;
+    }
+}
 /*  Small devices only*/
-@media(min-width:768px) and (max-width:991px){}
+@media(min-width:768px) and (max-width:991px){
+    #nav-list{
+        display: none;
+    }
+}
 /* Extra Small devices only */
 @media(max-width:767px){
     .navbar-brand{
