@@ -1,0 +1,104 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+background-color: rgb(107, 69, 104);
+}
+/* Header */
+#header-nav{
+    background-color: rgb(139, 78, 139);
+    border-radius: 0;
+    position: relative;
+    border: 0;
+}
+/* Logo */
+#logo-img{
+    position: absolute;
+    left: 0;
+    background: no-repeat;
+    background-size: contain;
+}
+/* Resturant Name */
+.navbar-brand h1{
+    font-family: cursive;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 4vw;
+    font-weight: bolder;
+    text-shadow:5px 2px 5px rgb(59, 39, 39) ;
+    margin-top: 0;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    left:60px;
+}
+
+.navbar-header a:hover, .navbar-header a:focus{
+    text-decoration: none;
+}
+
+#nav-list{
+    margin-top: 10px;
+}
+#nav-list a{
+    color: black;
+    text-align: center;
+}
+#nav-list a:hover{
+    background: purple;
+}
+#nav-list a span{
+    font-size: 28px;
+}
+#phone{
+    margin-top: 7px;
+}
+#phone a{
+    text-align: right;
+    padding-bottom: 0;
+}
+#phone div{
+    color: aqua;
+    text-align: right;
+    padding-right: 15px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid black;
+}
+.navbar-header button.navbar-toggle{
+    margin-top: 0px;
+}
+.First{
+    background-color:rgb(139, 53, 139);
+    color: whitesmoke;
+    font-weight: bolder;
+    margin-top: -20px;
+    text-align: center;
+}
+/* Large devices only */
+@media(min-width:1200px){}
+/* Medium devices only */
+@media(min-width:992px) and (max-width:1192px){}
+/*  Small devices only*/
+@media(min-width:768px) and (max-width:991px){}
+/* Extra Small devices only */
+@media(max-width:767px){
+    .navbar-brand{
+        padding-top: 0px;
+    }
+    .navbar-brand h1{
+        position: absolute;
+        left: 0;
+        margin-bottom: 12px;
+    }
+    #logo-img{
+        display: none;
+    }
+    #collapasable-nav a{
+        font-size:1.2em ;
+    }
+    #collapasable-nav a span{
+        font-size:1em ;
+        margin-right: 5px;
+    }
+}
