@@ -24,13 +24,13 @@ background-color: rgb(107, 69, 104);
     font-family: cursive;
     position: absolute;
     color: rgb(0, 0, 0);
-    font-size: 4vw;
+    font-size: 24px;
     font-weight: bolder;
     text-shadow:5px 2px 5px rgb(59, 39, 39) ;
     margin-top: 0;
     margin-bottom: 12px;
     text-transform: uppercase;
-    left:7%;
+    left:42px;
 }
 
 .navbar-header a:hover, .navbar-header a:focus{
