@@ -50,8 +50,12 @@ background-color: rgb(107, 69, 104);
 #nav-list a span{
     font-size: 28px;
 }
+/* The botton */
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
     border: 1px solid black;
+}
+.navbar-header button.navbar-toggle:hover, .navbar-header button.navbar-toggle:focus{
+background:purple;
 }
 .navbar-header button.navbar-toggle{
     margin-top: 0px;
