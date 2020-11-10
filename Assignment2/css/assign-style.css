@@ -50,18 +50,6 @@ background-color: rgb(107, 69, 104);
 #nav-list a span{
     font-size: 28px;
 }
-#phone{
-    margin-top: 7px;
-}
-#phone a{
-    text-align: right;
-    padding-bottom: 0;
-}
-#phone div{
-    color: aqua;
-    text-align: right;
-    padding-right: 15px;
-}
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
     border: 1px solid black;
 }
