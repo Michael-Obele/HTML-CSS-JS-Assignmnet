@@ -75,6 +75,16 @@ background-color: rgb(107, 69, 104);
     margin-top: -20px;
     text-align: center;
 }
+section{
+    border: 1px solid black;
+    background: gray;
+    height:90%;
+    margin-bottom: 12px;
+    position: relative;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
 /* Large devices only */
 @media(min-width:1200px){}
 /* Medium devices only */
