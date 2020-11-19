@@ -16,7 +16,8 @@ Some of my Assignment are below:
 - [My Second](https://michael-obele.github.io/HTML-CSS-JS-Assignmnet/Assignment2/)
 - [My Third](https://michael-obele.github.io/HTML-CSS-JS-Assignmnet/Assignment4/)
 
-> **FYI: For My Third Assignment it is hidden in the console, in Inspect; press Command + Option + C (Mac) or Control + Shift + C (Windows, Linux, Chrome OS)**
+> **FYI: For My Third Assignment it is hidden in the console, in Inspect;
+> press Command + Option + C (Mac) or Control + Shift + C (Windows, Linux, Chrome OS)**
 
 ### Markdown
 
